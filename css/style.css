@@ -1,0 +1,77 @@
+/* general layout */
+body{
+    font-family: sans-serif;
+    background: white;
+    
+}
+
+header{
+    background-color: lightblue;
+}
+
+.dashed{
+    border: #222 dashed 2px;
+}
+
+.container{
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.minHeight{
+
+    min-height: 300px;
+    height: fit-content;
+}
+
+/* flex containers */
+.foot-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.jumbo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.jumbo{
+
+    width: 100%;
+    
+}
+.menu{  
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+.split{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rev{
+    flex-direction: row-reverse;
+}
+
+
+
+
