@@ -4,9 +4,11 @@ body{
     background: white;
     
 }
-
+html{
+    font-family: sans-serif;
+}
 header{
-    background-color: lightblue;
+    background-color: rgb(42, 94, 232);
 }
 
 .dashed{
@@ -14,7 +16,7 @@ header{
 }
 
 .container{
-    max-width: 3000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -36,6 +38,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:rgb(42, 94, 232) ;
 
 }
 
@@ -43,15 +46,27 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 700px;
+    
     
 }
 
-
-
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
 
 .jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 
-    width: 100%;
     
 }
 .menu{  
@@ -73,5 +88,44 @@ header{
 }
 
 
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+}
 
 
+
+.button{
+
+    border-style: none;
+    border-radius: 40px;
+    background-color: white;
+    font-weight: 500;
+    
+}
+
+.bottone1{
+
+    padding: 16px 32px 16px 32px;
+
+}
+
+.bottone2{
+    padding: 16px 32px 16px 32px;
+    color: white;
+    background-color: #222;
+}
+
+
+.w-40>h1{
+    color: black;
+
+}
+
+.w-40>p{
+    padding: 1em;
+    font-size: 30px;
+    color: black;
+}
